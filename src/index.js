@@ -9,12 +9,15 @@ import { createStore} from 'redux';
 import { Provider} from 'react-redux';
 //import root reducer(index.js) so we can give it to the store...fill those shelves!!!
 import reducers from './reducers/index';
+import Navbar from './Components/NavBar';
+
+
 
 const theStore = createStore(reducers);
 //reactdom.render takes 2 args(1. what, 2. where)
 ReactDOM.render(
 	<Provider store={theStore}>
-		<Home />
+		<Navbar />
 	</Provider>,
  	document.getElementById('root')
  );

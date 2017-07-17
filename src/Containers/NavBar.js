@@ -55,7 +55,7 @@ class NavBar extends Component{
 												<div className="collapse navbar-collapse text-center" id="navbar-collapse">
 													<ul className="nav navbar-nav local-scroll text-center">
 														<li className="active">
-															<a href="#home">Home</a>
+															<a href="/">Home</a>
 															{shopMenu}
 														</li>
 															<li><a href="/login">Login</a></li>

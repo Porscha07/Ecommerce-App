@@ -146,7 +146,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup>
 						<Col smOffset={2} sm={10}>
-							<Button bsStyle="primary" bsSize="small" type="submit">
+							<Button bsStyle="success" bsSize="small" type="submit">
 								Register
 							</Button>
 						</Col>

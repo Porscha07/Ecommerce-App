@@ -83,9 +83,6 @@ class Register extends Component{
 
 	render(){
 
-		// this.setState({
-		// 	bad: ""
-		// })
 
 		return(
 			<div className="register-wrapper">
@@ -162,7 +159,7 @@ class Register extends Component{
 
 function mapStateToProps(state){
 	return{
-		registerResponse: state.registerReducer
+		registerResponse: state.RegisterReducer
 	}
 }
 

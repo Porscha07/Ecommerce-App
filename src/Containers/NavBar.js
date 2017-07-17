@@ -58,11 +58,11 @@ class NavBar extends Component{
 															<a href="#home">Home</a>
 															{shopMenu}
 														</li>
-															<li><a href="#login">Login</a></li>
-															<li><a href="#register">Register</a></li>
-															<li><a href="#oils">Oils</a></li>
-															<li><a href="butters">Butters</a></li>
-															<li><a href="#scrubs">Scrubs</a></li>
+															<li><a href="/login">Login</a></li>
+															<li><a href="/register">Register</a></li>
+															<li><a href="/oils">Oils</a></li>
+															<li><a href="/butters">Butters</a></li>
+															<li><a href="/scrubs">Scrubs</a></li>
 													</ul>
 												</div>
 											</div>

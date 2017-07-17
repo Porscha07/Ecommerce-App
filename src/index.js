@@ -9,7 +9,7 @@ import { createStore} from 'redux';
 import { Provider} from 'react-redux';
 //import root reducer(index.js) so we can give it to the store...fill those shelves!!!
 import reducers from './reducers/index';
-import Navbar from './Components/NavBar';
+import Navbar from './Containers/NavBar';
 
 
 

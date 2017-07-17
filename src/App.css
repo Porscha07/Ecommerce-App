@@ -3,9 +3,11 @@
 }
 
 .img-responsive{
-  height: 120vh;
+  height: 98vh;
   /* opacity: 0.5; */
   position: relative;
+  overflow: hidden;
+  width: 290vw;
 }
 
 h2 span{
@@ -14,7 +16,7 @@ h2 span{
    letter-spacing: 16px;  
    padding: 10px;
     position: absolute; 
-   top: 500px; 
+   top: 420px; 
    left: 109px; 
    width: 100%;
    text-align: center;

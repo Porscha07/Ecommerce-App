@@ -1,0 +1,116 @@
+/* line 3, ../../compass/sass/_homemade_grid.scss */
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 7, ../../compass/sass/_homemade_grid.scss */
+.col-1 {
+  width: 8.33333%;
+  float: left;
+}
+
+/* line 11, ../../compass/sass/_homemade_grid.scss */
+.col-2 {
+  width: 16.66667%;
+  float: left;
+}
+
+/* line 15, ../../compass/sass/_homemade_grid.scss */
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+/* line 2, ../../compass/sass/_header.scss */
+ul li {
+  color: #d1d2d4;
+}
+/* line 4, ../../compass/sass/_header.scss */
+ul li a {
+  color: #a1ffa4;
+  text-decoration: underline;
+}
+
+/* line 11, ../../compass/sass/_header.scss */
+a {
+  text-decoration: none;
+}
+/* line 13, ../../compass/sass/_header.scss */
+a h1 {
+  color: #d2d4d5;
+  font-size: 30px;
+}
+
+/* line 8, ../../compass/sass/_footer.scss */
+.main li {
+  font-size: 1px;
+}
+
+/* line 13, ../../compass/sass/_footer.scss */
+.container {
+  font-size: 14px;
+}
+/* line 15, ../../compass/sass/_footer.scss */
+.container li {
+  list-style: none;
+  font-size: 15px;
+}
+/* line 18, ../../compass/sass/_footer.scss */
+.container li a {
+  text-decoration: none;
+}
+/* line 22, ../../compass/sass/_footer.scss */
+.container li {
+  color: white;
+}
+
+/* line 1, ../../compass/sass/_home.scss */
+.pl-images {
+  margin-bottom: 10px;
+}
+/* line 3, ../../compass/sass/_home.scss */
+.pl-images img {
+  height: 256px;
+  width: 256px;
+  border: 5px solid #e6e6e6;
+}
+/* line 7, ../../compass/sass/_home.scss */
+.pl-images img:hover {
+  border-color: #1D5E9A;
+}
+/* line 12, ../../compass/sass/_home.scss */
+.pl-images a {
+  display: block;
+  cursor: pointer;
+}
+/* line 17, ../../compass/sass/_home.scss */
+.pl-images .text {
+  color: #121212;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+/* line 1, ../../compass/sass/_products.scss */
+.table-head {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* line 9, ../../compass/sass/styles.scss */
+h1 {
+  color: #0caaff;
+  font-size: 80px;
+}
+
+/* line 21, ../../compass/sass/styles.scss */
+.box {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  border: 2px solid black;
+  width: 100px;
+}

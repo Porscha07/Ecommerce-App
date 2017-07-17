@@ -26,13 +26,13 @@ class Home extends Component{
 												<div className="collapse navbar-collapse text-center" id="navbar-collapse">
 													<ul className="nav navbar-nav local-scroll text-center">
 														<li className="active">
-															<a href="#home">Home</a>
+															<a href="/">Home</a>
 														</li>
-															<li><a href="#login">Login</a></li>
-															<li><a href="#sign-up">Sign-up</a></li>
-															<li><a href="#oils">Oils</a></li>
-															<li><a href="butters">Butters</a></li>
-															<li><a href="#scrubs">Scrubs</a></li>
+															<li><a href="/login">Login</a></li>
+															<li><a href="/register">Register</a></li>
+															<li><a href="/oils">Oils</a></li>
+															<li><a href="/butters">Butters</a></li>
+															<li><a href="/scrubs">Scrubs</a></li>
 													</ul>
 												</div>
 											</div>

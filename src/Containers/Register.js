@@ -90,7 +90,7 @@ class Register extends Component{
 				<Form horizontal onSubmit={this.handleRegistration}>
 					<FormGroup controlId="formHorizontalName" validationState={this.state.nameError}>
 						<Col componentClass={ControlLabel} sm={2}>
-							Name
+							Name:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="text" name="fullName" placeholder="Full Name" />
@@ -98,7 +98,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName" validationState={this.state.emailError}>
 						<Col componentClass={ControlLabel} sm={2}>
-							Email
+							Email:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="email" name="email" placeholder="Email" />
@@ -106,7 +106,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName">
 						<Col componentClass={ControlLabel} sm={2}>
-							Password
+							Password:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="password" name="password" placeholder="Password" />
@@ -114,7 +114,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName">
 						<Col componentClass={ControlLabel} sm={2}>
-							Address
+							Address:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="text" name="address" placeholder="Address" />
@@ -122,7 +122,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName">
 						<Col componentClass={ControlLabel} sm={2}>
-							City
+							City:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="text" name="city" placeholder="City" />
@@ -130,7 +130,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName">
 						<Col componentClass={ControlLabel} sm={2}>
-							State
+							State:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="text" name="state" placeholder="State" />
@@ -138,7 +138,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName">
 						<Col componentClass={ControlLabel} sm={2}>
-							ZipCode
+							ZipCode:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="text" name="ZipCode" placeholder="ZipCode" />
@@ -146,7 +146,7 @@ class Register extends Component{
 					</FormGroup>
 					<FormGroup>
 						<Col smOffset={2} sm={10}>
-							<Button bsStyle="success" bsSize="small" type="submit">
+							<Button bsStyle="success" bsSize="large" type="submit">
 								Register
 							</Button>
 						</Col>

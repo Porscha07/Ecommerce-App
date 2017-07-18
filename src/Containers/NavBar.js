@@ -53,17 +53,15 @@ class NavBar extends Component{
 										</button>
 											<div className="col-md-8 col xs-12 nav wrap">
 												<div className="collapse navbar-collapse text-center" id="navbar-collapse">
-													<ul className="nav navbar-nav local-scroll text-center">
-														<li className="active">
-															<a href="/">Home</a>
+															<Link to="/">Home</Link>
 															{shopMenu}
-														</li>
-															<li><a href="/login">Login</a></li>
-															<li><a href="/register">Register</a></li>
-															<li><a href="/oils">Oils</a></li>
-															<li><a href="/butters">Butters</a></li>
-															<li><a href="/scrubs">Scrubs</a></li>
-													</ul>
+														
+															<Link to="/login">Login</Link>
+															<Link to="/register">Register</Link>
+															<Link to="/oils">Oils</Link>
+															<Link to="/butters">Butters</Link>
+															<Link to="/scrubs">Scrubs</Link>
+
 												</div>
 											</div>
 								</div>

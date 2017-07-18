@@ -6,12 +6,11 @@
 @import 'products';
 @import 'login';
 @import 'register';
+@import 'oils';
+@import 'butters';
+@import 'scrubs';
 
 
-h1{
-	color: $blue;
-	font-size:80px;
-}
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

@@ -246,12 +246,25 @@ h2 span {
   font-size: 18px;
 }
 
-/* line 2, ../../compass/sass/register.scss */
+/* line 1, ../../compass/sass/_login.scss */
+#navbar-collapse {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 0 20px;
+  line-height: 90px;
+  color: saddlebrown;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  /* font-weight: bold; */
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 2, ../../compass/sass/_register.scss */
 .App {
   text-align: center;
 }
 
-/* line 6, ../../compass/sass/register.scss */
+/* line 6, ../../compass/sass/_register.scss */
 .img-responsive {
   height: 98vh;
   /* opacity: 0.5; */
@@ -260,7 +273,7 @@ h2 span {
   width: 290vw;
 }
 
-/* line 14, ../../compass/sass/register.scss */
+/* line 14, ../../compass/sass/_register.scss */
 h2 span {
   color: forestgreen;
   font: 40px/45px Helvetica, Sans-Serif;
@@ -273,7 +286,7 @@ h2 span {
   text-align: center;
 }
 
-/* line 25, ../../compass/sass/register.scss */
+/* line 25, ../../compass/sass/_register.scss */
 .form-control {
   display: block;
   position: relative;
@@ -295,28 +308,28 @@ h2 span {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-/* line 46, ../../compass/sass/register.scss */
+/* line 46, ../../compass/sass/_register.scss */
 .control-label {
-  font-size: 40px;
-  color: success;
+  font-size: 30px;
+  color: maroon;
   position: relative;
-  right: 1em;
-  bottom: -1em;
+  right: -0.5em;
+  bottom: -1.5em;
 }
 
-/* line 54, ../../compass/sass/register.scss */
+/* line 54, ../../compass/sass/_register.scss */
 .image-text {
   text-align: center;
   margin: auto;
 }
 
-/* line 60, ../../compass/sass/register.scss */
+/* line 60, ../../compass/sass/_register.scss */
 .image-container:hover .after {
   display: block;
   background: rgba(0, 0, 0, 0.6);
 }
 
-/* line 65, ../../compass/sass/register.scss */
+/* line 65, ../../compass/sass/_register.scss */
 .nav-bar toggle {
   margin-top: 13px;
   border: none;
@@ -334,44 +347,45 @@ h2 span {
   border-radius: 4px;
 }
 
-/* line 81, ../../compass/sass/register.scss */
+/* line 81, ../../compass/sass/_register.scss */
 .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding: 0 20px;
   line-height: 90px;
-  color: maroon;
+  color: saddlebrown;
   font-size: 40px;
   letter-spacing: 0.02em;
   /* font-weight: bold; */
   transition: all 0.3s ease-in-out;
+  font-weight: bold;
 }
 
-/* line 93, ../../compass/sass/register.scss */
+/* line 94, ../../compass/sass/_register.scss */
 .navbar-nav {
   margin: 0;
   float: none;
   display: inline-block;
 }
 
-/* line 98, ../../compass/sass/register.scss */
+/* line 99, ../../compass/sass/_register.scss */
 .navbar-collapse {
   padding: 0;
   border-top: none;
 }
 
-/* line 102, ../../compass/sass/register.scss */
+/* line 103, ../../compass/sass/_register.scss */
 .nav-wrap {
   width: 60%;
 }
 
-/* line 105, ../../compass/sass/register.scss */
+/* line 106, ../../compass/sass/_register.scss */
 .navbar-toggle .icon-bar {
   background-color: #fff;
   width: 18px;
 }
 
-/* line 109, ../../compass/sass/register.scss */
+/* line 110, ../../compass/sass/_register.scss */
 .navbar-toggle {
   margin-top: 13px;
   border: none;
@@ -379,23 +393,23 @@ h2 span {
   margin-right: 5px;
 }
 
-/* line 115, ../../compass/sass/register.scss */
+/* line 116, ../../compass/sass/_register.scss */
 .navbar-header {
   width: 222%;
   padding-right: 15px;
 }
 
-/* line 119, ../../compass/sass/register.scss */
+/* line 120, ../../compass/sass/_register.scss */
 .nav-type-1 .container-fluid {
   padding: 0 50px;
 }
 
-/* line 122, ../../compass/sass/register.scss */
+/* line 123, ../../compass/sass/_register.scss */
 .relative {
   position: relative;
 }
 
-/* line 126, ../../compass/sass/register.scss */
+/* line 127, ../../compass/sass/_register.scss */
 .navigation-overlay {
   background-color: rgba(17, 17, 17, 0.5);
   width: 100%;
@@ -403,37 +417,63 @@ h2 span {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 132, ../../compass/sass/register.scss */
+/* line 133, ../../compass/sass/_register.scss */
 .navbar {
   margin-bottom: 0;
   border: none;
-  min-height: 60px;
+  min-height: 83px;
   backface-visibility: hidden;
   transition: all 0.3s ease-in-out;
   z-index: 1200;
+  opacity: 0.5;
+  color: sandybrown;
+  font-weight: bold;
 }
 
-/* line 141, ../../compass/sass/register.scss */
+/* line 145, ../../compass/sass/_register.scss */
 .register-wrapper {
   position: relative;
   top: -65em;
   left: 27em;
 }
 
-/* line 147, ../../compass/sass/register.scss */
+/* line 151, ../../compass/sass/_register.scss */
 .btn-success {
   position: relative;
-  left: -40em;
+  left: -25em;
   bottom: -3em;
+  border: 4px solid saddlebrown;
+  bsSize: inherit;
+  height: 3em;
+  border-radius: 10px;
+  font-size: 2em;
 }
 
-/* line 11, ../../compass/sass/styles.scss */
+/* line 1, ../../compass/sass/_oils.scss */
 h1 {
-  color: #0caaff;
+  position: relative;
+  top: -15em;
+  color: maroon;
   font-size: 80px;
 }
 
-/* line 23, ../../compass/sass/styles.scss */
+/* line 1, ../../compass/sass/_butters.scss */
+h1 {
+  position: relative;
+  top: -15em;
+  color: forestgreen;
+  font-size: 80px;
+}
+
+/* line 1, ../../compass/sass/_scrubs.scss */
+h1 {
+  position: relative;
+  top: -15em;
+  color: saddlebrown;
+  font-size: 80px;
+}
+
+/* line 22, ../../compass/sass/styles.scss */
 .box {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;

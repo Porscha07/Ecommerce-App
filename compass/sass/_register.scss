@@ -44,12 +44,12 @@ h2 span {
 }
 
 .control-label{
-  font-size:40px;
-  color: success;
+  font-size:30px;
+  color: maroon;
   // box-shadow:10px 10px 5px forestgreen;
   position:relative;
-  right: 1em;
-  bottom: -1em;
+  right: -0.5em;
+  bottom: -1.5em;
 }
 .image-text{
   text-align: center;
@@ -83,11 +83,12 @@ h2 span {
     text-transform: uppercase;
     padding: 0 20px;
     line-height: 90px;
-    color:maroon;
+    color: saddlebrown;
     font-size: 40px;
     letter-spacing: 0.02em;
     /* font-weight: bold; */
     transition: all 0.3s ease-in-out;
+    font-weight:bold;
 
   }
   .navbar-nav{
@@ -129,13 +130,16 @@ h2 span {
     line-height: 0;
     transition: all 0.3s ease-in-out;
   }
-  .navbar {
+ .navbar {
     margin-bottom: 0;
     border: none;
-    min-height: 60px;
+    min-height: 83px;
     backface-visibility: hidden;
     transition: all 0.3s ease-in-out;
     z-index: 1200;
+    opacity: 0.5;
+    color: sandybrown;
+    font-weight: bold;
   }
 
   .register-wrapper{
@@ -146,6 +150,11 @@ h2 span {
 
   .btn-success{
     position: relative;
-    left: -40em;
+    left: -25em;
     bottom: -3em;
+    border: 4px solid saddlebrown;
+    bsSize: inherit;
+    height: 3em;
+    border-radius: 10px;
+    font-size: 2em;
   }

@@ -83,7 +83,7 @@ class Login extends Component{
 				<Form horizontal onSubmit={this.handleLogin}>
 					<FormGroup controlId="formHorizontalName" validationState={this.state.nameError}>
 						<Col componentClass={ControlLabel} sm={2}>
-							Email
+							Email:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="email" name="email" placeholder="Email" />
@@ -91,7 +91,7 @@ class Login extends Component{
 					</FormGroup>
 					<FormGroup controlId="formHorizontalName" validationState={this.state.emailError}>
 						<Col componentClass={ControlLabel} sm={2}>
-							Password
+							Password:
 						</Col>
 						<Col sm={10}>
 							<FormControl type="password" name="password" placeholder="Password" />
